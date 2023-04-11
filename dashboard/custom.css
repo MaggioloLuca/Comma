@@ -1,0 +1,27 @@
+body {
+    background-color: #041F4F;
+}
+
+i {
+    color: white;
+}
+
+input {
+    height: 50px;
+}
+
+button {
+    height: 50px;
+}
+
+select {
+    height: 50px;
+}
+
+.search_field {
+    border-radius: 15px 0px 0px 15px !important;
+}
+
+.search_button {
+    border-radius: 0px 15px 15px 0px !important;
+}

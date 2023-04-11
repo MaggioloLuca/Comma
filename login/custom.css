@@ -1,0 +1,51 @@
+#left_col {
+    background-color: #0C4B8E;
+}
+
+#right_col {
+    background-color: #041F4F;
+}
+
+body::before {
+    height: 0px !important;
+}
+
+body::after {
+    height: 0px !important;
+}
+
+button {    
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.form_login {
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo_image {
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, 0);
+}
+
+.login_welcome {
+    font-size: 60px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login_title {
+    font-size: 60px;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%, 0%);
+}
+
+.form_control_font {
+    font-size: 2rem;
+}

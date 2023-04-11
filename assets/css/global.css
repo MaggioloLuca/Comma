@@ -1,0 +1,80 @@
+/* Cerca di seguire la struttura che ho preso dal template */
+
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 250px;
+}
+
+body::after {
+    display: block;
+    content: '';
+    height: 100px;
+}
+
+/* --------------Navbar---------------------- */
+.navbar {
+    height: 250px;
+}
+
+/* forms attributes */
+
+input {
+    border-radius: 15px !important;
+    font-size: 2rem;
+    height: 80px;
+}
+
+button {
+    border-radius: 15px !important;
+    font-size: 2rem;
+    height: 80px;
+}
+
+select{    
+    border-radius: 15px !important;
+}
+
+textarea {
+    border-radius: 15px !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.page_subtitle {
+    font-size: 60px;
+}
+
+@media only screen and (max-width: 992px) {
+    .page_subtitle {
+        font-size: 30px;
+    }
+}
+
+/* --------------Dashboard---------------------- */
+/* --------------Edit---------------------- */
+/* --------------Login---------------------- */
+/* --------------Management---------------------- */
+/* --------------Report---------------------- */
+/* --------------Segnalazione---------------------- */
